@@ -4,7 +4,7 @@
 
 - 빌드 자동화
 
-  - [방법1. (watch mode).md](<https://github.com/momongss/webpack-/blob/main/%EA%B3%B5%EB%B6%80/%EC%A3%BC%EC%A0%9C/%EB%B9%8C%EB%93%9C%20%EC%9E%90%EB%8F%99%ED%99%94/%EB%B0%A9%EB%B2%951.%20(watch%20mode).md>)
+  - [방법1. (watch mode).md](<https://github.com/momongss/webpack-/blob/main/%EA%B3%B5%EB%B6%80/%EC%A3%BC%EC%A0%9C/%EB%B9%8C%EB%93%9C%20%EC%9E%90%EB%8F%99%ED%99%94/%EB%B0%A9%EB%B2%951.%20(watch%20mode).md>) (추천)
   - [방법2. (webpack-dev-server).md](<https://github.com/momongss/webpack-/blob/main/%EA%B3%B5%EB%B6%80/%EC%A3%BC%EC%A0%9C/%EB%B9%8C%EB%93%9C%20%EC%9E%90%EB%8F%99%ED%99%94/%EB%B0%A9%EB%B2%952.%20(webpack-dev-server).md>)
   - [방법3. (webpack-dev-middleware).md](<https://github.com/momongss/webpack-/blob/main/%EA%B3%B5%EB%B6%80/%EC%A3%BC%EC%A0%9C/%EB%B9%8C%EB%93%9C%20%EC%9E%90%EB%8F%99%ED%99%94/%EB%B0%A9%EB%B2%953.%20(webpack-dev-middleware).md>)
 
