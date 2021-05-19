@@ -4,7 +4,7 @@
 
 - 웹팩은 자바스크립트 모듈 번들러
 - JS 파일 뿐만 아니라 CSS, image, font 등의 에셋들도 import 문으로 불러올 수 있다.
-  <br> → (브라우저가 알지 못하는 자산들을 브라우저가 알아보는 형태로 변환해줌.)
+  <br>(브라우저가 알지 못하는 자산들을 브라우저가 알아보는 형태로 변환해줌.)
 
 ## 주제
 
@@ -21,12 +21,9 @@
   - [방법1. (styled component).md](<https://github.com/momongss/webpack-/blob/main/%EA%B3%B5%EB%B6%80/%EC%A3%BC%EC%A0%9C/Sass%20%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0/%EB%B0%A9%EB%B2%951.%20(styled%20component).md>)
   - [방법2. (vscode extension).md](<https://github.com/momongss/webpack-/blob/main/%EA%B3%B5%EB%B6%80/%EC%A3%BC%EC%A0%9C/Sass%20%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0/%EB%B0%A9%EB%B2%952.%20(vscode%20extension).md>)
 
-- React 설정
+- [React 설정](https://github.com/momongss/webpack-/blob/main/%EA%B3%B5%EB%B6%80/%EC%A3%BC%EC%A0%9C/React%20%EC%84%A4%EC%A0%95/%EB%B0%A9%EB%B2%95.md)
 
-  - [방법.md](https://github.com/momongss/webpack-/blob/main/%EA%B3%B5%EB%B6%80/%EC%A3%BC%EC%A0%9C/React%20%EC%84%A4%EC%A0%95/%EB%B0%A9%EB%B2%95.md)
-
-- 여러 개 entry point (none SPA)
-  - [방법.md](https://github.com/momongss/webpack-/blob/main/%EA%B3%B5%EB%B6%80/%EC%A3%BC%EC%A0%9C/%EC%97%AC%EB%9F%AC%EA%B0%9C%EC%9D%98%20entryPoint/%EB%B0%A9%EB%B2%95.md)
+- [여러 개 entry point (none SPA)](https://github.com/momongss/webpack-/blob/main/%EA%B3%B5%EB%B6%80/%EC%A3%BC%EC%A0%9C/%EC%97%AC%EB%9F%AC%EA%B0%9C%EC%9D%98%20entryPoint/%EB%B0%A9%EB%B2%95.md)
 
 <br>
 
