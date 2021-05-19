@@ -10,7 +10,7 @@
 
 - [에셋 사용하기 (img, font, css import)](https://github.com/momongss/webpack-/blob/main/%EA%B3%B5%EB%B6%80/Guides/2.Asset_Management/study.md)
 
-- 빌드 자동화
+- [빌드 자동화](https://github.com/momongss/webpack-/blob/main/%EA%B3%B5%EB%B6%80/%EC%A3%BC%EC%A0%9C/Babel%20%EC%97%B0%EB%8F%99/study.md)
 
   - [방법1. (watch mode).md](<https://github.com/momongss/webpack-/blob/main/%EA%B3%B5%EB%B6%80/%EC%A3%BC%EC%A0%9C/%EB%B9%8C%EB%93%9C%20%EC%9E%90%EB%8F%99%ED%99%94/%EB%B0%A9%EB%B2%951.%20(watch%20mode).md>) (추천)
   - [방법2. (webpack-dev-server).md](<https://github.com/momongss/webpack-/blob/main/%EA%B3%B5%EB%B6%80/%EC%A3%BC%EC%A0%9C/%EB%B9%8C%EB%93%9C%20%EC%9E%90%EB%8F%99%ED%99%94/%EB%B0%A9%EB%B2%952.%20(webpack-dev-server).md>)
@@ -33,3 +33,24 @@
 2. [Asset_Management](https://github.com/momongss/webpack-/blob/main/%EA%B3%B5%EB%B6%80/Guides/2.Asset_Management/study.md)
 3. [Output_Management](https://github.com/momongss/webpack-/blob/main/%EA%B3%B5%EB%B6%80/Guides/3.Output_Management/study.md)
 4. [Development](https://github.com/momongss/webpack-/tree/main/%EA%B3%B5%EB%B6%80/Guides/4.Development)
+
+<br>
+
+# Babel
+
+## 개요
+
+- babel은 자바스크립트 컴파일러
+- 2가지 주요 기능 수행
+  1. 크로스 브라우징 이슈 해결
+  2. JSX 같은 JS 프레임워크만의 문법을 js 로 컴파일
+  - 크로스 브라우징을 위한 처리는 배포 직전에 1번만,
+  - JS 프레임워크 컴파일은 개발 중에 처리할 수 있도록 <BR>
+    환경을 설정하는게 더 효율적이고, 덜 헷갈리는 방법이라고 생각한다.
+
+## 주제
+
+- [크로스브라우징 처리(IE 등 지원)]() (.babelrc 에 설정해준다.)
+- JS 프레임워크 문법 컴파일
+  (webpack.config.js 에 설정해준다.)
+  - [React](https://github.com/momongss/webpack-/blob/main/%EA%B3%B5%EB%B6%80/%EC%A3%BC%EC%A0%9C/React%20%EC%84%A4%EC%A0%95/%EB%B0%A9%EB%B2%95.md)
