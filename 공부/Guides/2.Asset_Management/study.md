@@ -8,23 +8,55 @@ rules 에 추가
 
 ## css
 
-    test: /\.css$/i,
-    use: ['style-loader', 'css-loader'],
-    --------------------
-    import './style.css';
+- npm i -D css-loader style-loader
+
+---
+
+    -- webpack.config.js --
+    rules: [
+        test: /\.css$/i,
+        use: ['style-loader', 'css-loader'],
+        --------------------
+        import './style.css';
+    ]
 
 ## image
 
-    test: /\.(png|svg|jpg|jpeg|gif)$/i,
-    type: 'asset/resource',
-    --------------------
-    import Icon from './icon.png';
+- npm i -D file-loader
+
+---
+
+    -- webpack.config.js --
+    rules: [
+        {
+            test: /\.(png|jpe?g|gif)$/i,
+            use: [
+                {
+                loader: "file-loader",
+                },
+            ],
+        },
+    ]
 
 ## fonts
 
-    test: /\.(woff|woff2|eot|ttf|otf)$/i,
-    type: 'asset/resource',
+- npm i -D file-loader
+
+---
+
+    -- webpack.config.js --
+    rules: [
+        {
+            test: /\.(woff|woff2|eot|ttf|otf)$/i,
+            use: [
+                'file-loader',
+            ],
+        }
+    ]
+
     --------------------
+
+    -- .css --
     @font-face {
         font-family: 'MyFont';
         src: url('./my-font.woff2') format('woff2'),
